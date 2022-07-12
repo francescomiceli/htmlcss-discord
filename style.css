@@ -45,7 +45,7 @@ hr{border-bottom: 1px solid #8EA1E1; width: 80%; margin-top: 20px;}
   }
 
   .container p{
-    color: white;
+    color: black;
   }
 
   .container--2{
@@ -147,7 +147,7 @@ hr{border-bottom: 1px solid #8EA1E1; width: 80%; margin-top: 20px;}
 
     .footer{
       background-color: #23272A;
-      height: 1000px;
+      height: 600px;
     }
 
     .pink{
@@ -157,10 +157,15 @@ hr{border-bottom: 1px solid #8EA1E1; width: 80%; margin-top: 20px;}
 
     .flag{
       height: 13px;
+      color: white;
     }
 
     .column-1{
       width: 300px;
+    }
+
+    .column-1 p{
+      color:white;
     }
 
     .column-list{
@@ -185,6 +190,10 @@ hr{border-bottom: 1px solid #8EA1E1; width: 80%; margin-top: 20px;}
       display: flex;
       justify-content: space-between;
       margin-top: 20px;
+    }
+
+    .bianco {
+      color: white !important;
     }
 
     
