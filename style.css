@@ -5,13 +5,13 @@ ol,ul{list-style-type: none;}
 img{height: auto;}
 a{text-decoration: none; color: white;}
 a:hover{ color: rgb(195, 193, 193); transition: 0.3s;}
-hr{border:none; border-bottom: 1px solid #ddd}
+hr{border-bottom: 1px solid #8EA1E1; width: 80%; margin-top: 20px;}
 
 /* Header */
   header{
     background-image: url(img/jumbo.png);
     height: 60vh;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
@@ -27,8 +27,7 @@ hr{border:none; border-bottom: 1px solid #ddd}
   }
 
   .jumbotron{
-    margin: 0 auto;
-    margin-top: 60px;
+    
     color: white;
     text-align: center;
   }
@@ -41,8 +40,17 @@ hr{border:none; border-bottom: 1px solid #ddd}
     margin: 0 auto;
   }
 
+  .container--footer{
+    display: flex;
+  }
+
+  .container p{
+    color: white;
+  }
+
   .container--2{
     width: 45%;
+    margin-top: 55px;
   }
 
   .button{
@@ -132,6 +140,54 @@ hr{border:none; border-bottom: 1px solid #ddd}
       background-size: contain;
       margin-bottom: -17px;
     }
+
+    /* ! END MAIN */
+
+    /* ! FOOTER */
+
+    .footer{
+      background-color: #23272A;
+      height: 1000px;
+    }
+
+    .pink{
+      color: #8EA1E1;
+      font-size: 30px;
+    }
+
+    .flag{
+      height: 13px;
+    }
+
+    .column-1{
+      width: 300px;
+    }
+
+    .column-list{
+      width: 200px;
+    }
+
+    footer .social > *{
+      margin: 10px 5px;
+    }
+
+    .footer .container--footer{
+      display: flex;
+      
+    }
+
+    .column-list p:first-child{
+      color: #8EA1E1;
+      margin-top: 37px;
+    }
+
+    .sub-footer{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    
 
     
     
