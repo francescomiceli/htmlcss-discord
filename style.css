@@ -10,18 +10,9 @@ hr{border:none; border-bottom: 1px solid #ddd}
 /* Header */
   header{
     background-image: url(img/jumbo.png);
-    height: 100vh;
+    height: 60vh;
     background-size: contain;
     background-repeat: no-repeat;
-  }
-
-  .container{
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .container--2{
-    width: 45%;
   }
 
   .nav{
@@ -33,6 +24,25 @@ hr{border:none; border-bottom: 1px solid #ddd}
   .nav li{
     display: inline;
     margin: 15px;
+  }
+
+  .jumbotron{
+    margin: 0 auto;
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+  }
+  /*----------------------- End header */
+
+  /*----------------------- Elements */
+  
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .container--2{
+    width: 45%;
   }
 
   .button{
@@ -62,9 +72,25 @@ hr{border:none; border-bottom: 1px solid #ddd}
     color: black;
   }
 
-  .jumbotron{
-    margin: 0 auto;
-    margin-top: 60px;
-    color: white;
-    text-align: center;
+  /* -----------------End elements */
+
+  /* ! Main */
+
+  .img-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
   }
+
+  .text{
+    
+    height: 470px;
+    width: 300px;
+    padding: 30px;
+  }
+
+    h2{
+      line-height: 35px;
+    }
+    
